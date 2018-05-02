@@ -1,0 +1,5 @@
+
+# Turns the alacritty program to use Nightmode.
+sed -i -e "s/background: '0xffffff'/background: '0x000000'/g" ~/.config/alacritty/alacritty.yml
+sed -i -e "s/foreground: '0x000000'/foreground: '0xffffff'/g" ~/.config/alacritty/alacritty.yml
+
